@@ -1,4 +1,4 @@
-export const Giftem = ({ title, url, id }) => {
+export const Giftem = ({ title, url }) => {
     return (
         <div className='card'>
             <img src={url} alt={title} />
